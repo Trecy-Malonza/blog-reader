@@ -7,12 +7,11 @@ import kotlinx.coroutines.FlowPreview
 import java.sql.Date
 
 data class Blog(
-    var authorsPhoto:String,
-    var authorsName:String,
+    var author:String,
     var title: String,
     var publishingDate: String,
     var blogPreview: String,
     var articlePhoto: String,
-    val articleLink: String
+    var articleLink: String
 
 )
